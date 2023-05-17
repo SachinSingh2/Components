@@ -24,7 +24,7 @@ function Button({
     "rounded-full": rounded,
     "text-white":
       !outline && (primary || secondary || success || warning || danger),
-    "bg-inherit": outline,
+    "bg-white": outline,
     "text-blue-500": outline && primary,
     "text-gray-500": outline && secondary,
     "text-green-500": outline && success,
