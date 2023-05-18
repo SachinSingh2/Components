@@ -51,7 +51,7 @@ export default function Accordion() {
         const willExpand = expandedIndex === index
         console.log(willExpand)
 
-        const icon = <span className='text-3xl'>{willExpand?<GoTriangleDown/>:<GoTriangleUp/>}</span>
+        const icon = <span className='text-3xl'>{willExpand?<GoTriangleUp/>:<GoTriangleDown/>}</span>
 
 
 
