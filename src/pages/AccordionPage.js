@@ -1,39 +1,39 @@
-import Accordion from "./components/Accordion";
+import React  from "react";
+import Accordion from "../components/Accordion";
 
 
-function AccordionPage() {
-
-  const AccordionData = [
-    {
-        id:'adfass',
-        Heading:'This is Title 1',
-        Content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam natus earum nesciunt tenetur debitis, fuga vero? Nulla, laudantium sapiente laboriosam ex inventore placeat corporis explicabo incidunt quisquam! Maiores, pariatur!'
-        
-    },
-    {
-        id:'adsad',
-        Heading:'This is Title 2',
-        Content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam natus earum nesciunt tenetur debitis, fuga vero? Nulla, laudantium sapiente laboriosam ex inventore placeat corporis explicabo incidunt quisquam! Maiores, pariatur!'
-        
-    },
-    {
-        id:'dgdass',
-        Heading:'This is Title 3',
-        Content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam natus earum nesciunt tenetur debitis, fuga vero? Nulla, laudantium sapiente laboriosam ex inventore placeat corporis explicabo incidunt quisquam! Maiores, pariatur!'
-        
-    }
-]
-
-  return (
-    <>
-
-<Accordion AccordionData={AccordionData}/>
 
 
-    </>
-  );
+
+function AccordionPage(){
+
+    const item = [
+        {
+            id:'asdad',
+            label:'This is label 1' ,
+            content:'This is content 1'
+
+        },
+
+        {
+            id:'dsfas',
+            label:'This is label 2' ,
+            content:'This is content 2'
+        },
+
+        {
+            id:'asdfask',
+            label:'This is label 3' ,
+            content:'This is content 3'
+        }
+    ]
+    
+
+    return(
+        <>
+<Accordion items={item}  />
+        </>
+    )
 }
 
-
-export default AccordionPage;
-
+export default AccordionPage
