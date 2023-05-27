@@ -4,6 +4,7 @@ import ButtonPage from './pages/ButtonPage'
 import AccordionPage from './pages/AccordionPage'
 import DropDown from './pages/DropDownPage'
 import Route from './components/Route'
+import ModalPage from './pages/ModalPage'
 
 export default function App() {
   return (
@@ -21,6 +22,10 @@ export default function App() {
 
   <Route path='/Buttons'>
     <ButtonPage/>
+  </Route>
+
+  <Route path='/Modal'>
+    <ModalPage/>
   </Route>
 </div>
 

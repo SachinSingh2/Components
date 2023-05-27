@@ -6,6 +6,7 @@ export default function SideBar() {
     { label: "DropDown", path: "/" },
     { label: "Accordion", path: "/Accordion" },
     { label: "Buttons", path: "/Buttons" },
+    { label: "Modal", path: "/Modal" },
   ];
 
   const Render = LinkData.map((data, index) => {
