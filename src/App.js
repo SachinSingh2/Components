@@ -5,6 +5,8 @@ import AccordionPage from './pages/AccordionPage'
 import DropDown from './pages/DropDownPage'
 import Route from './components/Route'
 import ModalPage from './pages/ModalPage'
+import TablePage from './pages/TablePage'
+import CounterPage from './pages/CounterPage'
 
 export default function App() {
   return (
@@ -27,6 +29,15 @@ export default function App() {
   <Route path='/Modal'>
     <ModalPage/>
   </Route>
+
+  <Route path='/Table'>
+    <TablePage/>
+  </Route>
+
+  <Route path='/Counter'>
+    <CounterPage/>
+  </Route>
+
 </div>
 
     </div>

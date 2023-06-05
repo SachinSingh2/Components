@@ -6,7 +6,7 @@ export default function Links({to , children , className , activeClassName}) {
 
     const {currentPath , navigate } = useNavigation()
 
-    const classes = classnames("text-blue-500" , className , currentPath===to && activeClassName )
+    const classes = classnames("text-blue-500 " , className , currentPath===to && activeClassName )
 
     const onClickHandler = (e)=>{
         if(e.ctrlKey){
